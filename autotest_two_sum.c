@@ -1,6 +1,23 @@
 #include <check.h>
 #include "two_sum.h"
 
+
+
+
+// Test Suite 1
+
+    //Test Case A
+        // test_function_1
+        // test_function_2
+    // Test Case B
+        // test_function_3
+        
+// Test Suite 2
+    // Test Case X
+        // test_function_4
+
+
+
 START_TEST(test_two_sum) {
     ck_assert_int_eq(two_sum(2, 3), 5);
     ck_assert_int_eq(two_sum(-1, 1), 0);
